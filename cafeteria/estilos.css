@@ -6,14 +6,13 @@
 }
 
 body {
-  margin-top: 40px;
   font-family: 'Segoe UI', sans-serif;
   background-image: url('fondo.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed; /* para que se mantenga al hacer scroll */
-  color: #c0be39;
+  color: #333;
   line-height: 1.6;
   padding: 20px;
 }
@@ -25,12 +24,12 @@ header {
 }
 
 header h1 {
-  font-size: 2.5rem;
-  color: #855C37;
+  font-size: 3.1rem;
+  color: #1a202c;
 }
 
 header p {
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   color: #4a5568;
 }
 
@@ -46,23 +45,21 @@ header p {
 /* Card estilo */
 .card {
   display: flex;
-  /*display:*/
   align-items: center;
   justify-content: center;
-  background: #3a5d80;
+  background: white;
   border-radius: 12px;
-  border:1px solid #d4c70c;
-  margin-top: 30px;
+  padding: 20px;
   text-align: center;
   font-weight: bold;
-  font-size: 3.5rem;
-  color: #edeff3;
+  font-size: 2rem;
+  color: #2d3748;
   text-decoration: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .card {
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .card::before {
@@ -74,7 +71,7 @@ header p {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  background: #3a5d80;
+  background: #edf2f7;
 }
 
 footer {
