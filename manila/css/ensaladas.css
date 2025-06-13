@@ -37,12 +37,11 @@ section {
 
 section h2 {
   background-color: #476e4e;
-  color: rgba(0, 0, 0, 0.295);
+  color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 15px;
 }
-
 .item {
   background: rgba(190, 185, 185, 0.5);
   padding: 15px;
