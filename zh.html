@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>餐厅菜单</title>
+  <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+  <header>
+    <div style="display: flex; align-items: center; justify-content: space-between;">
+      <h1>Terraza San Miguel</h1>
+      <div class="lang-dropdown">
+        <button class="lang-btn">
+          <img src="https://flagcdn.com/cn.svg" alt="中文" width="32" height="24"> ▼
+        </button>
+        <div class="lang-menu">
+          <a href="index.html"><img src="https://flagcdn.com/es.svg" alt="Español" width="32" height="24"> Español</a>
+          <a href="fr.html"><img src="https://flagcdn.com/fr.svg" alt="Français" width="32" height="24"> Français</a>
+          <a href="zh.html"><img src="https://flagcdn.com/cn.svg" alt="中文" width="32" height="24"> 中文</a>
+          <a href="en.html"><img src="https://flagcdn.com/us.svg" alt="English" width="32" height="24"> English</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="dashboard">
+    <a href="cafeteria/zh.html" class="card">圣米格尔露台咖啡厅</a>
+    <a href="manila/zh.html" class="card">马尼拉餐厅</a>
+    <a href="bebidas/zh.html" class="card">饮料</a>
+    <a href="carta_vinos/zh.html" class="card">酒单</a>
+  </main>
+  <footer>
+    <p>&copy; 2025 Terraza Sanmiguel. 版权所有。</p>
+  </footer>
+
+  <style>
+    .lang-dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .lang-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .lang-menu {
+      display: none;
+      position: absolute;
+      right: 0;
+      background: #fff;
+      min-width: 160px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .lang-menu a {
+      color: #333;
+      padding: 10px 16px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s;
+    }
+    .lang-menu a:hover {
+      background: #f0f0f0;
+    }
+    .lang-dropdown:hover .lang-menu {
+      display: block;
+    }
+  </style>
+</body>
+</html>
