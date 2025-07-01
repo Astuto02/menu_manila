@@ -84,64 +84,62 @@ footer {
 
 /* Responsive */
 @media (max-width: 600px) {
+  body {
+    padding: 5px;
+    font-size: 1rem;
+    background-attachment: scroll;
+  }
+  header h1 {
+    font-size: 2.2rem;
+  }
+  .dashboard {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 0 5px;
+  }
+  .card {
+    font-size: 1.2rem;
+    padding: 10px 5px;
+  }
+  .menu {
+    max-width: 100%;
+    margin: 0 2px;
+  }
+  section h2 {
+    font-size: 1.1rem;
+    padding: 6px;
+  }
+  ul, ol {
+    padding-left: 18px;
+    font-size: 1rem;
+  }
+  .item {
+    font-size: 0.95rem;
+    padding: 8px;
+  }
   .item h3 {
+    font-size: 1rem;
     flex-direction: column;
     align-items: flex-start;
   }
-
   .item h3 span {
     margin-top: 5px;
   }
-}
-
-.menu {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-section {
-  margin-bottom: 30px;
-}
-
-section h2 {
-  background-color: #476e4e;
-  color: rgba(14, 1, 1, 0.295);
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 15px;
-}
-
-.item {
-  background: rgba(177, 184, 181, 0.5);
-  padding: 15px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-  
-}
-
-.item h3 {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.1rem;
-  margin-bottom: 5px;
-  color: #000;
-}
-
-.item p {
-  font-size: 0.95rem;
-  color: #141212;
-}
-.back-button {
-  display: inline-block;
-  margin-top: 30px;
-  padding: 10px 20px;
-  background-color: #343a40;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 1rem;
-  border-radius: 8px;
-  font-weight: bold;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  .back-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  .back-button:hover {
+    background-color: #495057;
+    transform: translateY(-2px);
+  }
 }

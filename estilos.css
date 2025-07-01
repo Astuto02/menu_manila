@@ -129,6 +129,10 @@ footer {
     font-size: 1.1rem;
     padding: 6px;
   }
+  ul, ol {
+    padding-left: 18px;
+    font-size: 1rem;
+  }
   .item {
     font-size: 0.95rem;
     padding: 8px;
@@ -154,7 +158,6 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease, transform 0.2s ease;
   }
-  
   .back-button:hover {
     background-color: #495057;
     transform: translateY(-2px);
