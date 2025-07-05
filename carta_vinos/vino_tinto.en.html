@@ -3,38 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <title>Red Wines - Wine List</title>
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="css/vino_tinto.css">
 </head>
 <body>
   <header>
-    <div style="display: flex; align-items: center; justify-content: space-between;">
-      <h1>Red Wines</h1>
-      <div class="lang-dropdown">
-        <button class="lang-btn">
-          <img src="https://flagcdn.com/us.svg" alt="English" width="32" height="24"> ▼
-        </button>
-        <div class="lang-menu">
-          <a href="vino_tinto.html"><img src="https://flagcdn.com/es.svg" alt="Spanish" width="32" height="24"> Spanish</a>
-          <a href="vino_tinto.fr.html"><img src="https://flagcdn.com/fr.svg" alt="French" width="32" height="24"> French</a>
-          <a href="vino_tinto.zh.html"><img src="https://flagcdn.com/cn.svg" alt="Chinese" width="32" height="24"> Chinese</a>
-          <a href="vino_tinto.en.html"><img src="https://flagcdn.com/us.svg" alt="English" width="32" height="24"> English</a>
-        </div>
-      </div>
-    </div>
+    <h1>🍽️ Terraza San Miguel</h1>
+    <img src="sanmiguel_logo.png" alt="Restaurant logo" class="logo">
   </header>
-  <main>
-    <h2>Red Wines</h2>
-    <ul>
-      <li>Rioja Crianza</li>
-      <li>Ribera del Duero</li>
-      <li>Priorat</li>
-      <li>Tempranillo</li>
-      <li>Cabernet Sauvignon</li>
-    </ul>
-    <a href="en.html">Back to wine list</a>
+  <nav class="lang-selector">
+    <a href="vino_tinto.html"><img src="https://flagcdn.com/es.svg" alt="Spanish" style="width:56px;height:42px;"></a>
+    <a href="vino_tinto.fr.html"><img src="https://flagcdn.com/fr.svg" alt="French" style="width:56px;height:42px;"></a>
+    <a href="vino_tinto.en.html"><img src="https://flagcdn.com/gb.svg" alt="English" style="width:56px;height:42px;"></a>
+    <a href="vino_tinto.zh.html"><img src="https://flagcdn.com/cn.svg" alt="Chinese" style="width:56px;height:42px;"></a>
+  </nav>
+  <main class="menu">
+    <section>
+      <h2>Red Wines</h2>
+      <div class="item">
+        <h3>Protos Roble tinta fina <span class="precio">19,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Protos crianza tinta fina <span class="precio">38,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Protos reserva tinta fina <span class="precio">52,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Vega Sicilia. Unica tinta fina <span class="precio">320,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Vega sicilia valbuena tinta fina 5 years <span class="precio">180,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Alión 2014 tinta fina <span class="precio">160,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Prumo finca villa creces <span class="precio">19,000 FCFA</span></h3>
+      </div>
+    </section>
+    <a href="en.html" class="back-button">Back to wine list</a>
   </main>
-  <footer>
-    <p>&copy; 2025 Wine List. All rights reserved.</p>
-  </footer>
 </body>
 </html>

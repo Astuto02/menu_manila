@@ -2,38 +2,34 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <title>其他葡萄酒 - 酒单</title>
-  <link rel="stylesheet" href="estilos.css">
+  <title>多样葡萄酒 - 酒单</title>
+  <link rel="stylesheet" href="css/varios.css">
 </head>
 <body>
   <header>
-    <div style="display: flex; align-items: center; justify-content: space-between;">
-      <h1>其他葡萄酒</h1>
-      <div class="lang-dropdown">
-        <button class="lang-btn">
-          <img src="https://flagcdn.com/cn.svg" alt="中文" width="32" height="24"> ▼
-        </button>
-        <div class="lang-menu">
-          <a href="varios.html"><img src="https://flagcdn.com/es.svg" alt="西班牙语" width="32" height="24"> 西班牙语</a>
-          <a href="varios.fr.html"><img src="https://flagcdn.com/fr.svg" alt="法语" width="32" height="24"> 法语</a>
-          <a href="varios.zh.html"><img src="https://flagcdn.com/cn.svg" alt="中文" width="32" height="24"> 中文</a>
-          <a href="varios.en.html"><img src="https://flagcdn.com/us.svg" alt="英语" width="32" height="24"> 英语</a>
-        </div>
-      </div>
-    </div>
+    <h1>🍽️ Terraza San Miguel</h1>
+    <img src="sanmiguel_logo.png" alt="餐厅标志" class="logo">
   </header>
-  <main>
-    <h2>其他葡萄酒</h2>
-    <ul>
-      <li>苦艾酒</li>
-      <li>曼萨尼利亚雪利酒</li>
-      <li>菲诺雪利酒</li>
-      <li>阿蒙蒂利亚多雪利酒</li>
-    </ul>
-    <a href="zh.html">返回酒单</a>
+  <nav class="lang-selector">
+    <a href="varios.html"><img src="https://flagcdn.com/es.svg" alt="西班牙语" style="width:56px;height:42px;"></a>
+    <a href="varios.fr.html"><img src="https://flagcdn.com/fr.svg" alt="法语" style="width:56px;height:42px;"></a>
+    <a href="varios.en.html"><img src="https://flagcdn.com/gb.svg" alt="英语" style="width:56px;height:42px;"></a>
+    <a href="varios.zh.html"><img src="https://flagcdn.com/cn.svg" alt="中文" style="width:56px;height:42px;"></a>
+  </nav>
+  <main class="menu">
+    <section>
+      <h2>多样葡萄酒</h2>
+      <div class="item">
+        <h3>Chateneuf du pape. La foile du pape, 法国 grenache 等 <span class="precio">45,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Repuestre reserva Garnacha tintora almansa <span class="precio">20,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Cap nature Merlot Bordeaux <span class="precio">19,000 FCFA</span></h3>
+      </div>
+    </section>
+    <a href="zh.html" class="back-button">返回酒单</a>
   </main>
-  <footer>
-    <p>&copy; 2025 酒单。保留所有权利。</p>
-  </footer>
 </body>
 </html>

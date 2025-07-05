@@ -2,35 +2,34 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <title>咖啡 - 饮品</title>
+  <title>咖啡与茶 - 饮品</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
   <header>
-    <div style="display: flex; align-items: center; justify-content: space-between;">
-      <h1>咖啡</h1>
-      <div class="lang-dropdown">
-        <button class="lang-btn">
-          <img src="https://flagcdn.com/cn.svg" alt="中文" width="32" height="24"> ▼
-        </button>
-        <div class="lang-menu">
-          <a href="cafe.html"><img src="https://flagcdn.com/es.svg" alt="西班牙语" width="32" height="24"> 西班牙语</a>
-          <a href="cafe.fr.html"><img src="https://flagcdn.com/fr.svg" alt="法语" width="32" height="24"> 法语</a>
-          <a href="cafe.zh.html"><img src="https://flagcdn.com/cn.svg" alt="中文" width="32" height="24"> 中文</a>
-          <a href="cafe.en.html"><img src="https://flagcdn.com/us.svg" alt="英语" width="32" height="24"> 英语</a>
-        </div>
-      </div>
-    </div>
+    <h1>🍽️ Terraza San Miguel</h1>
+    <img src="sanmiguel_logo.png" alt="餐厅标志" class="logo">
   </header>
-  <main>
-    <h2>咖啡</h2>
-    <ul>
-      <li>浓缩咖啡</li>
-      <li>牛奶咖啡</li>
-      <li>卡布奇诺</li>
-      <li>冰咖啡</li>
-    </ul>
-    <a href="zh.html">返回饮品菜单</a>
+  <nav class="lang-selector">
+    <a href="cafe.html"><img src="https://flagcdn.com/es.svg" alt="西班牙语" style="width:56px;height:42px;"></a>
+    <a href="cafe.fr.html"><img src="https://flagcdn.com/fr.svg" alt="法语" style="width:56px;height:42px;"></a>
+    <a href="cafe.en.html"><img src="https://flagcdn.com/gb.svg" alt="英语" style="width:56px;height:42px;"></a>
+    <a href="cafe.zh.html"><img src="https://flagcdn.com/cn.svg" alt="中文" style="width:56px;height:42px;"></a>
+  </nav>
+  <main class="menu">
+    <section>
+      <h2>咖啡与茶</h2>
+      <div class="item">
+        <h3>咖啡 <span class="precio">1,500 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Carajillo <span class="precio">3,500 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>茶 <span class="precio">1,000 FCFA</span></h3>
+      </div>
+    </section>
+    <a href="zh.html" class="back-button">返回饮品菜单</a>
   </main>
   <footer>
     <p>&copy; 2025 饮品。保留所有权利。</p>

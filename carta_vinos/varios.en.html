@@ -3,37 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Various Wines - Wine List</title>
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="css/varios.css">
 </head>
 <body>
   <header>
-    <div style="display: flex; align-items: center; justify-content: space-between;">
-      <h1>Various Wines</h1>
-      <div class="lang-dropdown">
-        <button class="lang-btn">
-          <img src="https://flagcdn.com/us.svg" alt="English" width="32" height="24"> ▼
-        </button>
-        <div class="lang-menu">
-          <a href="varios.html"><img src="https://flagcdn.com/es.svg" alt="Spanish" width="32" height="24"> Spanish</a>
-          <a href="varios.fr.html"><img src="https://flagcdn.com/fr.svg" alt="French" width="32" height="24"> French</a>
-          <a href="varios.zh.html"><img src="https://flagcdn.com/cn.svg" alt="Chinese" width="32" height="24"> Chinese</a>
-          <a href="varios.en.html"><img src="https://flagcdn.com/us.svg" alt="English" width="32" height="24"> English</a>
-        </div>
-      </div>
-    </div>
+    <h1>🍽️ Terraza San Miguel</h1>
+    <img src="sanmiguel_logo.png" alt="Restaurant logo" class="logo">
   </header>
-  <main>
-    <h2>Various Wines</h2>
-    <ul>
-      <li>Vermouth</li>
-      <li>Manzanilla</li>
-      <li>Fino</li>
-      <li>Amontillado</li>
-    </ul>
-    <a href="en.html">Back to wine list</a>
+  <nav class="lang-selector">
+    <a href="varios.html"><img src="https://flagcdn.com/es.svg" alt="Spanish" style="width:56px;height:42px;"></a>
+    <a href="varios.fr.html"><img src="https://flagcdn.com/fr.svg" alt="French" style="width:56px;height:42px;"></a>
+    <a href="varios.en.html"><img src="https://flagcdn.com/gb.svg" alt="English" style="width:56px;height:42px;"></a>
+    <a href="varios.zh.html"><img src="https://flagcdn.com/cn.svg" alt="Chinese" style="width:56px;height:42px;"></a>
+  </nav>
+  <main class="menu">
+    <section>
+      <h2>Various Wines</h2>
+      <div class="item">
+        <h3>Chateneuf du pape. La foile du pape, France grenache and others <span class="precio">45,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Repuestre reserva Garnacha tintora almansa <span class="precio">20,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Cap nature Merlot Bordeaux <span class="precio">19,000 FCFA</span></h3>
+      </div>
+    </section>
+    <a href="en.html" class="back-button">Back to wine list</a>
   </main>
-  <footer>
-    <p>&copy; 2025 Wine List. All rights reserved.</p>
-  </footer>
 </body>
 </html>

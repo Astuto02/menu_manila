@@ -7,31 +7,35 @@
 </head>
 <body>
   <header>
-    <div style="display: flex; align-items: center; justify-content: space-between;">
-      <h1>Snacks & Tapas</h1>
-      <div class="lang-dropdown">
-        <button class="lang-btn">
-          <img src="https://flagcdn.com/us.svg" alt="English" width="32" height="24"> ▼
-        </button>
-        <div class="lang-menu">
-          <a href="snack-tapas.html"><img src="https://flagcdn.com/es.svg" alt="Spanish" width="32" height="24"> Spanish</a>
-          <a href="snack-tapas.fr.html"><img src="https://flagcdn.com/fr.svg" alt="French" width="32" height="24"> French</a>
-          <a href="snack-tapas.zh.html"><img src="https://flagcdn.com/cn.svg" alt="Chinese" width="32" height="24"> Chinese</a>
-          <a href="snack-tapas.en.html"><img src="https://flagcdn.com/us.svg" alt="English" width="32" height="24"> English</a>
-        </div>
-      </div>
-    </div>
+    <h1>🍽️ Terraza San Miguel</h1>
+    <img src="sanmiguel_logo.png" alt="Restaurant logo" class="logo">
   </header>
-  <main>
-    <h2>Snacks & Tapas</h2>
-    <ul>
-      <li>Patatas bravas</li>
-      <li>Fried calamari</li>
-      <li>Croquettes</li>
-      <li>Manchego cheese</li>
-      <li>Iberian ham</li>
-    </ul>
-    <a href="en.html">Back to drinks menu</a>
+  <nav class="lang-selector">
+    <a href="snack-tapas.html"><img src="https://flagcdn.com/es.svg" alt="Spanish" style="width:56px;height:42px;"></a>
+    <a href="snack-tapas.fr.html"><img src="https://flagcdn.com/fr.svg" alt="French" style="width:56px;height:42px;"></a>
+    <a href="snack-tapas.en.html"><img src="https://flagcdn.com/gb.svg" alt="English" style="width:56px;height:42px;"></a>
+    <a href="snack-tapas.zh.html"><img src="https://flagcdn.com/cn.svg" alt="Chinese" style="width:56px;height:42px;"></a>
+  </nav>
+  <main class="menu">
+    <section>
+      <h2>Snacks & Tapas</h2>
+      <div class="item">
+        <h3>Patatas bravas <span class="precio">2,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Fried calamari <span class="precio">3,500 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Croquettes <span class="precio">2,500 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Manchego cheese <span class="precio">3,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Iberian ham <span class="precio">4,500 FCFA</span></h3>
+      </div>
+    </section>
+    <a href="en.html" class="back-button">Back to drinks menu</a>
   </main>
   <footer>
     <p>&copy; 2025 Drinks. All rights reserved.</p>

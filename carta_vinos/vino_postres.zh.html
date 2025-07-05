@@ -3,37 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>甜点酒 - 酒单</title>
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="css/vino_postres.css">
 </head>
 <body>
   <header>
-    <div style="display: flex; align-items: center; justify-content: space-between;">
-      <h1>甜点酒</h1>
-      <div class="lang-dropdown">
-        <button class="lang-btn">
-          <img src="https://flagcdn.com/cn.svg" alt="中文" width="32" height="24"> ▼
-        </button>
-        <div class="lang-menu">
-          <a href="vino_postres.html"><img src="https://flagcdn.com/es.svg" alt="西班牙语" width="32" height="24"> 西班牙语</a>
-          <a href="vino_postres.fr.html"><img src="https://flagcdn.com/fr.svg" alt="法语" width="32" height="24"> 法语</a>
-          <a href="vino_postres.zh.html"><img src="https://flagcdn.com/cn.svg" alt="中文" width="32" height="24"> 中文</a>
-          <a href="vino_postres.en.html"><img src="https://flagcdn.com/us.svg" alt="英语" width="32" height="24"> 英语</a>
-        </div>
-      </div>
-    </div>
+    <h1>🍽️ Terraza San Miguel</h1>
+    <img src="sanmiguel_logo.png" alt="餐厅标志" class="logo">
   </header>
-  <main>
-    <h2>甜点酒</h2>
-    <ul>
-      <li>莫斯卡托</li>
-      <li>佩德罗·希梅内斯</li>
-      <li>波特酒</li>
-      <li>马拉加酒</li>
-    </ul>
-    <a href="zh.html">返回酒单</a>
+  <nav class="lang-selector">
+    <a href="vino_postres.html"><img src="https://flagcdn.com/es.svg" alt="西班牙语" style="width:56px;height:42px;"></a>
+    <a href="vino_postres.fr.html"><img src="https://flagcdn.com/fr.svg" alt="法语" style="width:56px;height:42px;"></a>
+    <a href="vino_postres.en.html"><img src="https://flagcdn.com/gb.svg" alt="英语" style="width:56px;height:42px;"></a>
+    <a href="vino_postres.zh.html"><img src="https://flagcdn.com/cn.svg" alt="中文" style="width:56px;height:42px;"></a>
+  </nav>
+  <main class="menu">
+    <section>
+      <h2>甜点酒</h2>
+      <div class="item">
+        <h3>Noe osborne Pedro Ximenez Jerez de la frontera <span class="precio">8,000 FCFA/杯</span></h3>
+      </div>
+      <div class="item">
+        <h3>GRAHAM'S 20 year old taway port <span class="precio">8,000 FCFA/杯</span></h3>
+      </div>
+      <div class="item">
+        <h3>STRATUS LICOR moscatel de alejandra lanzarote <span class="precio">8,000 FCFA/杯</span></h3>
+      </div>
+    </section>
+    <a href="zh.html" class="back-button">返回酒单</a>
   </main>
-  <footer>
-    <p>&copy; 2025 酒单。保留所有权利。</p>
-  </footer>
 </body>
 </html>

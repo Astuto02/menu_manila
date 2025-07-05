@@ -2,35 +2,34 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Cafés - Boissons</title>
+  <title>Cafés & Thés - Boissons</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
   <header>
-    <div style="display: flex; align-items: center; justify-content: space-between;">
-      <h1>Cafés</h1>
-      <div class="lang-dropdown">
-        <button class="lang-btn">
-          <img src="https://flagcdn.com/fr.svg" alt="Français" width="32" height="24"> ▼
-        </button>
-        <div class="lang-menu">
-          <a href="cafe.html"><img src="https://flagcdn.com/es.svg" alt="Espagnol" width="32" height="24"> Espagnol</a>
-          <a href="cafe.fr.html"><img src="https://flagcdn.com/fr.svg" alt="Français" width="32" height="24"> Français</a>
-          <a href="cafe.zh.html"><img src="https://flagcdn.com/cn.svg" alt="Chinois" width="32" height="24"> Chinois</a>
-          <a href="cafe.en.html"><img src="https://flagcdn.com/us.svg" alt="Anglais" width="32" height="24"> Anglais</a>
-        </div>
-      </div>
-    </div>
+    <h1>🍽️ Terraza San Miguel</h1>
+    <img src="sanmiguel_logo.png" alt="Logo du restaurant" class="logo">
   </header>
-  <main>
-    <h2>Cafés</h2>
-    <ul>
-      <li>Expresso</li>
-      <li>Café au lait</li>
-      <li>Cappuccino</li>
-      <li>Café glacé</li>
-    </ul>
-    <a href="fr.html">Retour au menu des boissons</a>
+  <nav class="lang-selector">
+    <a href="cafe.html"><img src="https://flagcdn.com/es.svg" alt="Espagnol" style="width:56px;height:42px;"></a>
+    <a href="cafe.fr.html"><img src="https://flagcdn.com/fr.svg" alt="Français" style="width:56px;height:42px;"></a>
+    <a href="cafe.en.html"><img src="https://flagcdn.com/gb.svg" alt="Anglais" style="width:56px;height:42px;"></a>
+    <a href="cafe.zh.html"><img src="https://flagcdn.com/cn.svg" alt="Chinois" style="width:56px;height:42px;"></a>
+  </nav>
+  <main class="menu">
+    <section>
+      <h2>Cafés & Thés</h2>
+      <div class="item">
+        <h3>Café <span class="precio">1,500 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Carajillo <span class="precio">3,500 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Thé <span class="precio">1,000 FCFA</span></h3>
+      </div>
+    </section>
+    <a href="fr.html" class="back-button">Retour au menu des boissons</a>
   </main>
   <footer>
     <p>&copy; 2025 Boissons. Tous droits réservés.</p>

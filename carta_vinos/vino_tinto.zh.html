@@ -3,38 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <title>红葡萄酒 - 酒单</title>
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="css/vino_tinto.css">
 </head>
 <body>
   <header>
-    <div style="display: flex; align-items: center; justify-content: space-between;">
-      <h1>红葡萄酒</h1>
-      <div class="lang-dropdown">
-        <button class="lang-btn">
-          <img src="https://flagcdn.com/cn.svg" alt="中文" width="32" height="24"> ▼
-        </button>
-        <div class="lang-menu">
-          <a href="vino_tinto.html"><img src="https://flagcdn.com/es.svg" alt="西班牙语" width="32" height="24"> 西班牙语</a>
-          <a href="vino_tinto.fr.html"><img src="https://flagcdn.com/fr.svg" alt="法语" width="32" height="24"> 法语</a>
-          <a href="vino_tinto.zh.html"><img src="https://flagcdn.com/cn.svg" alt="中文" width="32" height="24"> 中文</a>
-          <a href="vino_tinto.en.html"><img src="https://flagcdn.com/us.svg" alt="英语" width="32" height="24"> 英语</a>
-        </div>
-      </div>
-    </div>
+    <h1>🍽️ Terraza San Miguel</h1>
+    <img src="sanmiguel_logo.png" alt="餐厅标志" class="logo">
   </header>
-  <main>
-    <h2>红葡萄酒</h2>
-    <ul>
-      <li>里奥哈陈酿</li>
-      <li>杜埃罗河岸</li>
-      <li>普里奥拉特</li>
-      <li>添普兰尼洛</li>
-      <li>赤霞珠</li>
-    </ul>
-    <a href="zh.html">返回酒单</a>
+  <nav class="lang-selector">
+    <a href="vino_tinto.html"><img src="https://flagcdn.com/es.svg" alt="西班牙语" style="width:56px;height:42px;"></a>
+    <a href="vino_tinto.fr.html"><img src="https://flagcdn.com/fr.svg" alt="法语" style="width:56px;height:42px;"></a>
+    <a href="vino_tinto.en.html"><img src="https://flagcdn.com/gb.svg" alt="英语" style="width:56px;height:42px;"></a>
+    <a href="vino_tinto.zh.html"><img src="https://flagcdn.com/cn.svg" alt="中文" style="width:56px;height:42px;"></a>
+  </nav>
+  <main class="menu">
+    <section>
+      <h2>红葡萄酒</h2>
+      <div class="item">
+        <h3>Protos Roble tinta fina <span class="precio">19,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Protos crianza tinta fina <span class="precio">38,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Protos reserva tinta fina <span class="precio">52,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Vega Sicilia. Unica tinta fina <span class="precio">320,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Vega sicilia valbuena tinta fina 5年 <span class="precio">180,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Alión 2014 tinta fina <span class="precio">160,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Prumo finca villa creces <span class="precio">19,000 FCFA</span></h3>
+      </div>
+    </section>
+    <a href="zh.html" class="back-button">返回酒单</a>
   </main>
-  <footer>
-    <p>&copy; 2025 酒单。保留所有权利。</p>
-  </footer>
 </body>
 </html>
