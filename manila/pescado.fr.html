@@ -2,39 +2,44 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Poissons - Restaurant Manila</title>
-  <link rel="stylesheet" href="estilos.css">
+  <title>Poissons et Fruits de Mer</title>
+  <link rel="stylesheet" href="css/pescado.css">
 </head>
 <body>
   <header>
-    <div style="display: flex; align-items: center; justify-content: space-between;">
-      <h1>Poissons</h1>
-      <div class="lang-dropdown">
-        <button class="lang-btn">
-          <img src="https://flagcdn.com/fr.svg" alt="Français" width="32" height="24"> ▼
-        </button>
-        <div class="lang-menu">
-          <a href="pescado.html"><img src="https://flagcdn.com/es.svg" alt="Espagnol" width="32" height="24"> Espagnol</a>
-          <a href="pescado.fr.html"><img src="https://flagcdn.com/fr.svg" alt="Français" width="32" height="24"> Français</a>
-          <a href="pescado.zh.html"><img src="https://flagcdn.com/cn.svg" alt="Chinois" width="32" height="24"> Chinois</a>
-          <a href="pescado.en.html"><img src="https://flagcdn.com/us.svg" alt="Anglais" width="32" height="24"> Anglais</a>
-        </div>
-      </div>
-    </div>
+    <h1>Restaurant Manila</h1>
+    <img src="sanmiguel_logo.png" alt="Logo du restaurant" class="logo">
   </header>
-  <main>
-    <h2>Poissons</h2>
-    <ul>
-      <li>Dorade grillée</li>
-      <li>Bar au four</li>
-      <li>Merlu pané</li>
-      <li>Thon grillé</li>
-      <li>Calamars farcis</li>
-    </ul>
-    <a href="fr.html">Retour au menu principal</a>
+
+  <main class="menu">
+    <section>
+      <h2>Poissons et Fruits de Mer</h2>
+      <div class="item">
+        <h3>Friture de poisson et fruits de mer <span class="precio">15.000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Crevettes royales au sel sur couscous <span class="precio">12.000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Langouste de Bata à la thermidor <span class="precio">23.000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Filet de poisson au charbon de manioc <span class="precio">14.000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Poisson du jour selon taille <span class="precio">10.000/25.000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Poulpe à la galicienne (Selon saison) <span class="precio">13.000 FCFA</span></h3>
+      </div>
+    </section>
+    <nav class="lang-selector">
+      <a href="pescado.fr.html"><img src="https://flagcdn.com/fr.svg" alt="Français" style="width:56px;height:42px;"></a>
+      <a href="pescado.html"><img src="https://flagcdn.com/es.svg" alt="Español" style="width:56px;height:42px;"></a>
+      <a href="pescado.en.html"><img src="https://flagcdn.com/gb.svg" alt="English" style="width:56px;height:42px;"></a>
+      <a href="pescado.zh.html"><img src="https://flagcdn.com/cn.svg" alt="中文" style="width:56px;height:42px;"></a>
+    </nav>
+    <a href="index.html" class="back-button">Retour au Menu Principal</a>
   </main>
-  <footer>
-    <p>&copy; 2025 Restaurant Manila. Tous droits réservés.</p>
-  </footer>
 </body>
 </html>

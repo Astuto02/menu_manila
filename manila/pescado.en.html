@@ -2,39 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Fish - Manila Restaurant</title>
-  <link rel="stylesheet" href="estilos.css">
+  <title>Fish and Seafood</title>
+  <link rel="stylesheet" href="css/pescado.css">
 </head>
 <body>
   <header>
-    <div style="display: flex; align-items: center; justify-content: space-between;">
-      <h1>Fish</h1>
-      <div class="lang-dropdown">
-        <button class="lang-btn">
-          <img src="https://flagcdn.com/us.svg" alt="English" width="32" height="24"> ▼
-        </button>
-        <div class="lang-menu">
-          <a href="pescado.html"><img src="https://flagcdn.com/es.svg" alt="Spanish" width="32" height="24"> Spanish</a>
-          <a href="pescado.fr.html"><img src="https://flagcdn.com/fr.svg" alt="French" width="32" height="24"> French</a>
-          <a href="pescado.zh.html"><img src="https://flagcdn.com/cn.svg" alt="Chinese" width="32" height="24"> Chinese</a>
-          <a href="pescado.en.html"><img src="https://flagcdn.com/us.svg" alt="English" width="32" height="24"> English</a>
-        </div>
-      </div>
-    </div>
+    <h1>Manila Restaurant</h1>
+    <img src="sanmiguel_logo.png" alt="Restaurant logo" class="logo">
   </header>
-  <main>
-    <h2>Fish</h2>
-    <ul>
-      <li>Grilled gilthead bream</li>
-      <li>Baked sea bass</li>
-      <li>Battered hake</li>
-      <li>Grilled tuna</li>
-      <li>Stuffed squid</li>
-    </ul>
-    <a href="en.html">Back to main menu</a>
+
+  <main class="menu">
+    <section>
+      <h2>Fish and Seafood</h2>
+      <div class="item">
+        <h3>Fried fish and seafood <span class="precio">15,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Salted king prawns on couscous <span class="precio">12,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Bata lobster thermidor <span class="precio">23,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Fish fillet in cassava charcoal <span class="precio">14,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Fish of the day by size <span class="precio">10,000/25,000 FCFA</span></h3>
+      </div>
+      <div class="item">
+        <h3>Galician-style octopus (Seasonal) <span class="precio">13,000 FCFA</span></h3>
+      </div>
+    </section>
+    <nav class="lang-selector">
+      <a href="pescado.en.html"><img src="https://flagcdn.com/gb.svg" alt="English" style="width:56px;height:42px;"></a>
+      <a href="pescado.html"><img src="https://flagcdn.com/es.svg" alt="Español" style="width:56px;height:42px;"></a>
+      <a href="pescado.fr.html"><img src="https://flagcdn.com/fr.svg" alt="Français" style="width:56px;height:42px;"></a>
+      <a href="pescado.zh.html"><img src="https://flagcdn.com/cn.svg" alt="中文" style="width:56px;height:42px;"></a>
+    </nav>
+    <a href="index.html" class="back-button">Back to Main Menu</a>
   </main>
-  <footer>
-    <p>&copy; 2025 Manila Restaurant. All rights reserved.</p>
-  </footer>
 </body>
 </html>
